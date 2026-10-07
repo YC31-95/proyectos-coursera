@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Color principal -->
+    <color name="primary">#2196F3</color>
+
+    <!-- Color principal oscuro -->
+    <color name="primary_dark">#1976D2</color>
+
+    <!-- Color de acento -->
+    <color name="accent">#FF4081</color>
+
+</resources>

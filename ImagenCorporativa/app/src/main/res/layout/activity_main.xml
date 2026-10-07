@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <!-- ENCABEZADO -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="28dp"
+                android:background="@color/primary">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MI IMAGEN CORPORATIVA"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.05" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="Diseño • Identidad • Creatividad"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <!-- CONTENIDO -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="24dp">
+
+            <!-- LOGOTIPO -->
+            <ImageView
+                    android:layout_width="220dp"
+                    android:layout_height="220dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/gatitos"
+                    android:scaleType="centerInside"
+                    android:contentDescription="Logotipo" />
+
+            <!-- TÍTULO -->
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="GATITOS"
+                    android:textAlignment="center"
+                    android:textColor="@color/primary_dark"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            <!-- DESCRIPCIÓN -->
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Una imagen corporativa representa los valores, la personalidad y la identidad de una organización."
+                    android:textAlignment="center"
+                    android:textColor="#555555"
+                    android:textSize="16sp"
+                    android:lineSpacingExtra="4dp" />
+
+            <!-- BOTÓN -->
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="28dp"
+                    android:text="CONOCER MÁS"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:backgroundTint="@color/accent" />
+
+        </LinearLayout>
+
+        <!-- PIE DE PÁGINA -->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:gravity="center"
+                android:text="© mis gatitos "
+                android:textColor="#777777"
+                android:textSize="13sp" />
+
+    </LinearLayout>
+
+</ScrollView>
