@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <!-- Foto circular de perfil -->
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgPerfilMascota"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/mascota1"
+            android:scaleType="centerCrop"
+            app:civ_border_width="3dp"
+            app:civ_border_color="@android:color/white" />
+
+    <!-- Nombre -->
+    <TextView
+            android:id="@+id/txtNombreMascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Firulais"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    <!-- Título -->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:text="Fotos de Firulais"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    <!-- Fotos en Grid -->
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerFotos"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+</LinearLayout>

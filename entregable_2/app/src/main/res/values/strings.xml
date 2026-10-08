@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Formulario de Contacto</string>
+    <string name="titulo_formulario">Datos del contacto</string>
+    <string name="titulo_confirmacion">Confirmar datos</string>
+    <string name="hint_nombre">Nombre completo</string>
+    <string name="hint_fecha">Fecha de nacimiento</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_descripcion">Descripción del contacto</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="btn_editar">Editar datos</string>
+    <string name="elige_fecha">Selecciona la fecha de nacimiento</string>
+    <string name="error_nombre">Ingresa el nombre completo (nombre y apellido)</string>
+    <string name="error_fecha">Selecciona la fecha de nacimiento</string>
+    <string name="error_telefono">Ingresa un teléfono válido (7 a 15 dígitos)</string>
+    <string name="error_email">Ingresa un email válido</string>
+    <string name="error_descripcion">Ingresa una descripción</string>
+    <string name="confirma_intro">Por favor verifica que tus datos sean correctos.</string>
+</resources>
