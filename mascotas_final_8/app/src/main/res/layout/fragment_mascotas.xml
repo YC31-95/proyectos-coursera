@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F6FA"
+        android:fillViewport="true">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+        <!-- Encabezado -->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🐾 Mis Mascotas"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#332D3D"
+                android:layout_marginTop="10dp" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conoce y disfruta de tus compañeros favoritos"
+                android:textSize="15sp"
+                android:textColor="#77717D"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="20dp" />
+
+        <!-- Tarjeta principal -->
+        <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="22dp"
+                app:cardElevation="3dp"
+                app:cardBackgroundColor="@android:color/white"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="22dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🐶"
+                        android:textSize="48sp" />
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="¡Bienvenido!"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="#332D3D"
+                        android:layout_marginTop="8dp" />
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Aquí podrás encontrar y administrar las mascotas de tu aplicación."
+                        android:textSize="15sp"
+                        android:textColor="#77717D"
+                        android:layout_marginTop="6dp" />
+
+                <com.google.android.material.button.MaterialButton
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="18dp"
+                        android:text="Explorar mascotas"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        app:cornerRadius="15dp" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Sección -->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mis compañeros"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#332D3D"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="10dp" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tus mascotas aparecerán aquí."
+                android:textSize="15sp"
+                android:textColor="#77717D" />
+
+    </LinearLayout>
+
+</ScrollView>

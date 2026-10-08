@@ -1,0 +1,6 @@
+CREATE TABLE mascota (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nombre TEXT NOT NULL,
+    foto INTEGER NOT NULL,
+    rating INTEGER NOT NULL
+);
